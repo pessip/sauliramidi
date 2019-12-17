@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: path.join(__dirname, 'src', 'index'),
-  watch: true,
+  watch: false,
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: '/dist/',
@@ -47,11 +47,5 @@ module.exports = {
   resolve: {
     extensions: ['.json', '.js', '.jsx']
   },
-  devtool: 'source-map',
-  devServer: {
-    contentBase: path.join(__dirname, '/dist/'),
-    inline: true,
-    host: 'localhost',
-    port: 8080,
-  }
+  devtool: 'source-map'
 };

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "develop": "webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack -p",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
@@ -21,7 +21,8 @@
     "three": "^0.111.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
