@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: path.join(__dirname, 'src', 'index'),
   watch: false,
   output: {
@@ -46,6 +46,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['.json', '.js', '.jsx']
-  },
-  devtool: 'source-map'
+  }
 };
