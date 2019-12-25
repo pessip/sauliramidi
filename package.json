@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "webpack --mode development",
     "build": "webpack -p --progress ",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "serve": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",

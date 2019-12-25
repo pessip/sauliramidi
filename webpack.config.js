@@ -5,7 +5,7 @@ module.exports = {
   watch: false,
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/dist/',
+    publicPath: '/',
     filename: "bundle.js",
     chunkFilename: '[name].js'
   },
@@ -46,5 +46,8 @@ module.exports = {
   },
   resolve: {
     extensions: ['.json', '.js', '.jsx']
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist')
   }
 };
