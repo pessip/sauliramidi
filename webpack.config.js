@@ -5,7 +5,7 @@ module.exports = {
   watch: false,
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/sauliramidi/',
     filename: "bundle.js",
     chunkFilename: '[name].js'
   },
