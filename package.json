@@ -9,6 +9,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "serve": "webpack-dev-server"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [],
   "author": "",
   "license": "ISC",
