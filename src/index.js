@@ -2,7 +2,7 @@ import './css/index.css'
 import * as THREE from 'three'
 import obama from './textures/obama.jpg'
 import crate from './textures/crate.gif'
-import sale from './textures/Sale-pieni.jpg'
+import sale from './textures/sale-pieni.jpg'
 
 let camera, scene, renderer, cube;
 
